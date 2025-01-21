@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 377, in <module>
+    asyncio.run(run_chat(args))
+  File "/usr/local/miniconda3/envs/datagen/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/local/miniconda3/envs/datagen/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 240, in run_chat
+    chat_model = ChatModel(vars(args))
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 222, in __init__
+    self.engine = LlaMaMultimodalModel(hf_args)
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 154, in __init__
+    model_id = model_args.model_name_or_path
+AttributeError: 'dict' object has no attribute 'model_name_or_path'

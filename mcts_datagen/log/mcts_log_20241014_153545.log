@@ -1,0 +1,26 @@
+2024-10-14 15:36:20,349 - __main__ - INFO - Selected task 1/10: ./data/json_2.1.1/train/pick_clean_then_place_in_recep-Cloth-None-Cart-430/trial_T20190906_194234_663749
+2024-10-14 15:37:10,106 - src.mcts.algorithm - INFO - Play round: 1
+2024-10-14 15:37:11,747 - src.mcts.algorithm - INFO - action_candidates before: {'go to toilet 1': 1.0, 'go to toilet #': 0.0, 'go to toilet !': 0.0, 'go to toilet $': 0.0, 'go to toilet "': 0.0}
+2024-10-14 15:37:11,748 - src.mcts.algorithm - INFO - action_candidates after: {'go to toilet 1': 1.0}
+2024-10-14 15:38:51,839 - src.mcts.algorithm - INFO - action_candidates before: {'0: go to sink 1': 0.3183349430894502, '0: go to sink #': 0.0, '0: go to sink !': 0.0, '0: go to sink $': 0.0, '0: go to sink "': 0.0}
+2024-10-14 15:38:51,841 - src.mcts.algorithm - INFO - action_candidates after: {}
+2024-10-14 15:38:52,195 - src.mcts.algorithm - INFO - action_candidates before: {'go to sink 1': 0.5974225401878357, 'go to sink #': 0.0, 'go to sink !': 0.0, 'go to sink $': 0.0, 'go to sink "': 0.0}
+2024-10-14 15:38:52,195 - src.mcts.algorithm - INFO - action_candidates after: {'go to sink 1': 0.5974225401878357}
+2024-10-14 15:38:53,310 - src.mcts.algorithm - INFO - action_candidates before: {'go to sinkbasin 1': 1.0, 'go to sinkbasin #': 0.0, 'go to sinkbasin !': 0.0, 'go to sinkbasin $': 0.0, 'go to sinkbasin "': 0.0}
+2024-10-14 15:38:53,311 - src.mcts.algorithm - INFO - action_candidates after: {'go to sinkbasin 1': 1.0}
+2024-10-14 15:38:54,308 - src.mcts.algorithm - INFO - action_candidates before: {'go to garbagecan 1': 1.0, 'go to garbagecan #': 0.0, 'go to garbagecan !': 0.0, 'go to garbagecan $': 0.0, 'go to garbagecan "': 0.0}
+2024-10-14 15:38:54,309 - src.mcts.algorithm - INFO - action_candidates after: {'go to garbagecan 1': 1.0}
+2024-10-14 15:38:55,393 - src.mcts.algorithm - INFO - action_candidates before: {'take cloth 1 from garbagecan 1': 1.0, 'take cloth 1 from garbagecan #': 0.0, 'take cloth 1 from garbagecan !': 0.0, 'take cloth 1 from garbagecan $': 0.0, 'take cloth 1 from garbagecan "': 0.0}
+2024-10-14 15:38:55,393 - src.mcts.algorithm - INFO - action_candidates after: {'take cloth 1 from garbagecan 1': 1.0}
+2024-10-14 15:38:56,756 - src.mcts.algorithm - INFO - action_candidates before: {'go to sinkbasin 1': 0.6286229491233826, 'go to sinkbasin #': 0.0, 'go to sinkbasin !': 0.0, 'go to sinkbasin $': 0.0, 'go to sinkbasin "': 0.0}
+2024-10-14 15:38:56,757 - src.mcts.algorithm - INFO - action_candidates after: {'go to sinkbasin 1': 0.6286229491233826}
+2024-10-14 15:38:58,217 - src.mcts.algorithm - INFO - action_candidates before: {'clean cloth 1 with sinkbasin 1': 1.0, 'clean cloth 1 with sinkbasin #': 0.0, 'clean cloth 1 with sinkbasin !': 0.0, 'clean cloth 1 with sinkbasin $': 0.0, 'clean cloth 1 with sinkbasin "': 0.0}
+2024-10-14 15:38:58,218 - src.mcts.algorithm - INFO - action_candidates after: {'clean cloth 1 with sinkbasin 1': 1.0}
+2024-10-14 15:39:04,079 - src.mcts.algorithm - INFO - action_candidates before: {'go to cart 1': 1.0, 'go to cart #': 0.0, 'go to cart !': 0.0, 'go to cart $': 0.0, 'go to cart "': 0.0}
+2024-10-14 15:39:04,081 - src.mcts.algorithm - INFO - action_candidates after: {'go to cart 1': 1.0}
+2024-10-14 15:39:05,279 - src.mcts.algorithm - INFO - action_candidates before: {'put cloth 1 in/on cart 1': 1.0, 'put cloth 1 in/on cart #': 0.0, 'put cloth 1 in/on cart !': 0.0, 'put cloth 1 in/on cart $': 0.0, 'put cloth 1 in/on cart "': 0.0}
+2024-10-14 15:39:05,280 - src.mcts.algorithm - INFO - action_candidates after: {'put cloth 1 in/on cart 1': 1.0}
+2024-10-14 15:39:10,574 - src.mcts.algorithm - INFO - action_candidates before: {'go to toilet 1': 1.0, 'go to toilet #': 0.0, 'go to toilet !': 0.0, 'go to toilet $': 0.0, 'go to toilet "': 0.0}
+2024-10-14 15:39:10,574 - src.mcts.algorithm - INFO - action_candidates after: {'go to toilet 1': 1.0}
+2024-10-14 15:39:11,108 - src.mcts.algorithm - INFO - action_candidates before: {'go to sink 1': 1.0, 'go to sink #': 0.0, 'go to sink !': 0.0, 'go to sink $': 0.0, 'go to sink "': 0.0}
+2024-10-14 15:39:11,108 - src.mcts.algorithm - INFO - action_candidates after: {'go to sink 1': 1.0}

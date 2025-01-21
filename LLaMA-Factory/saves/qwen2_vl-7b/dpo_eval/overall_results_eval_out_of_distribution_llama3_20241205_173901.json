@@ -1,0 +1,425 @@
+{
+    "success_rate": 0.8666666666666667,
+    "results": [
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182353_418140",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/1"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/2"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/3"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182435_622538",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/4"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/5"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/6"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/7"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221355_558505",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/8"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141942_810052",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/9"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/10"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145050_918567",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/11"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081746_857594",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/12"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190906_184021_215264",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/13"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120632_691361",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/14"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083507_594820",
+            "final_score": 0.3333333333333333,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/15"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/16"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/17"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/18"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133935_066606",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/19"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004351_281384",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/20"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/21"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_122024_052056",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/22"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121710_650938",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/23"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220545_153480",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/24"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Spatula-None-Drawer-10/trial_T20190907_080800_275989",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/25"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Potato-None-GarbageCan-10/trial_T20190907_161745_664033",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/26"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163240_345855",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/27"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032543_712058",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/28"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174807_646433",
+            "final_score": 0.3333333333333333,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/29"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-Cabinet-424/trial_T20190908_022436_073995",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/30"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/31"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/32"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Cloth-None-CounterTop-424/trial_T20190908_100632_546757",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/33"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083346_800823",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/34"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091747_866951",
+            "final_score": 0.3333333333333333,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/35"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938",
+            "final_score": 0.3333333333333333,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/36"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033157_424297",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/37"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113610_425142",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/38"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/39"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_171933_349922",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/40"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213356_017769",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/41"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/42"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114656_768805",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/43"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074124_966890",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/44"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Watch-None-Safe-219/trial_T20190907_074524_006355",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/45"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221208_560499",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/46"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021650_880235",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/47"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424/trial_T20190908_214926_337906",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/48"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_142046_281296",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/49"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120554_888709",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/50"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004404_604165",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/51"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064309_357168",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/52"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033306_962974",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/53"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-Bowl-None-DeskLamp-308/trial_T20190907_133953_562557",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/54"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/55"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-Pillow-None-Sofa-219/trial_T20190907_163327_486300",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/56"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424/trial_T20190907_074106_050405",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/57"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-PepperShaker-None-Drawer-10/trial_T20190918_154326_823501",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/58"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/59"
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033228_194678",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false,
+            "image_dir": "/mnt/tangyehui/code/LLaMA-Factory/saves/qwen2_vl-7b/dpo_eval/images/eval_out_of_distribution_llama3_20241205_173901/60"
+        }
+    ]
+}

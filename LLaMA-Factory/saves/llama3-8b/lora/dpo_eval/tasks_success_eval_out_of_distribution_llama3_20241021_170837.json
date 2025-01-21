@@ -1,0 +1,4461 @@
+[
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Potato-None-Microwave-10/trial_T20190907_033306_962974",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a countertop 2, a coffeemachine 1, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: cool some potato and put it in microwave",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "inventory",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 1, a bowl 1, a apple 1, a bowl 2, a apple 2, and a tomato 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "take lettuce 1 from fridge 1",
+                    "take bowl 1 from fridge 1",
+                    "take apple 1 from fridge 1",
+                    "take bowl 2 from fridge 1",
+                    "take apple 2 from fridge 1",
+                    "take tomato 1 from fridge 1",
+                    "inventory",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "take tomato 1 from fridge 1",
+                "observation": "You pick up the tomato 1 from the fridge 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put tomato 1 in/on fridge 1",
+                    "cool tomato 1 with fridge 1",
+                    "inventory",
+                    "examine tomato 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a soapbottle 1, a vase 1, a cellphone 1, a mug 1, a potato 1, a peppershaker 1, a butterknife 1, a potato 2, and a spoon 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put tomato 1 in/on countertop 1",
+                    "inventory",
+                    "examine tomato 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "put tomato 1 in/on countertop 1",
+                "observation": "You put the tomato 1 in/on the countertop 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take vase 1 from countertop 1",
+                    "take cellphone 1 from countertop 1",
+                    "take mug 1 from countertop 1",
+                    "take potato 1 from countertop 1",
+                    "take peppershaker 1 from countertop 1",
+                    "take butterknife 1 from countertop 1",
+                    "take potato 2 from countertop 1",
+                    "take spoon 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "inventory",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, and a egg 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "take pot 1 from microwave 1",
+                    "take egg 1 from microwave 1",
+                    "inventory",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "take potato 1 from countertop 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "take pot 1 from microwave 1",
+                    "take egg 1 from microwave 1",
+                    "inventory",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a vase 1, a tomato 1, a soapbottle 1, a cellphone 1, a mug 1, a potato 1, a peppershaker 1, a butterknife 1, a potato 2, and a spoon 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take vase 1 from countertop 1",
+                    "take tomato 1 from countertop 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take cellphone 1 from countertop 1",
+                    "take mug 1 from countertop 1",
+                    "take potato 1 from countertop 1",
+                    "take peppershaker 1 from countertop 1",
+                    "take butterknife 1 from countertop 1",
+                    "take potato 2 from countertop 1",
+                    "take spoon 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "take potato 1 from countertop 1",
+                "observation": "You pick up the potato 1 from the countertop 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put potato 1 in/on countertop 1",
+                    "inventory",
+                    "examine potato 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "put potato 1 in microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put potato 1 in/on countertop 1",
+                    "inventory",
+                    "examine potato 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "put potato 1 in microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put potato 1 in/on countertop 1",
+                    "inventory",
+                    "examine potato 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is open. On the fridge 1, you see a lettuce 1, a bowl 1, a apple 1, a bowl 2, and a apple 2.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put potato 1 in/on fridge 1",
+                    "cool potato 1 with fridge 1",
+                    "inventory",
+                    "examine potato 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "cool potato 1 with fridge 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put potato 1 in/on fridge 1",
+                    "cool potato 1 with fridge 1",
+                    "inventory",
+                    "examine potato 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "put potato 1 in microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put potato 1 in/on fridge 1",
+                    "cool potato 1 with fridge 1",
+                    "inventory",
+                    "examine potato 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is open. On the microwave 1, you see a pot 1, and a egg 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put potato 1 in/on microwave 1",
+                    "heat potato 1 with microwave 1",
+                    "inventory",
+                    "examine potato 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "put potato 1 in/on microwave 1",
+                "observation": "You put the potato 1 in/on the microwave 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to countertop 2",
+                    "go to coffeemachine 1",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "take pot 1 from microwave 1",
+                    "take egg 1 from microwave 1",
+                    "inventory",
+                    "examine microwave 1"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 1, a bowl 1, a apple 1, a bowl 2, a apple 2, and a tomato 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take tomato 1 from fridge 1",
+                "observation": "You pick up the tomato 1 from the fridge 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a soapbottle 1, a vase 1, a cellphone 1, a mug 1, a potato 1, a peppershaker 1, a butterknife 1, a potato 2, and a spoon 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put tomato 1 in/on countertop 1",
+                "observation": "You put the tomato 1 in/on the countertop 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, and a egg 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take potato 1 from countertop 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a vase 1, a tomato 1, a soapbottle 1, a cellphone 1, a mug 1, a potato 1, a peppershaker 1, a butterknife 1, a potato 2, and a spoon 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take potato 1 from countertop 1",
+                "observation": "You pick up the potato 1 from the countertop 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put potato 1 in microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put potato 1 in microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is open. On the fridge 1, you see a lettuce 1, a bowl 1, a apple 1, a bowl 2, and a apple 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "cool potato 1 with fridge 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put potato 1 in microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is open. On the microwave 1, you see a pot 1, and a egg 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put potato 1 in/on microwave 1",
+                "observation": "You put the potato 1 in/on the microwave 1.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Plate-None-CounterTop-10/trial_T20190908_213420_728917",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: clean some plate and put it in countertop",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a soapbottle 1, a cellphone 1, a cellphone 2, a papertowelroll 1, and a plate 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take bread 1 from countertop 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take cellphone 1 from countertop 1",
+                    "take cellphone 2 from countertop 1",
+                    "take papertowelroll 1 from countertop 1",
+                    "take plate 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "take plate 1 from countertop 1",
+                "observation": "You pick up the plate 1 from the countertop 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put plate 1 in/on countertop 1",
+                    "inventory",
+                    "examine plate 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "examine plate 1",
+                "observation": "This is a normal plate 1",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put plate 1 in/on countertop 1",
+                    "inventory",
+                    "examine plate 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "put plate 1 in/on countertop 1",
+                "observation": "You put the plate 1 in/on the countertop 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take bread 1 from countertop 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take cellphone 1 from countertop 1",
+                    "take cellphone 2 from countertop 1",
+                    "take papertowelroll 1 from countertop 1",
+                    "take plate 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "inventory",
+                "observation": "You are not carrying anything.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take bread 1 from countertop 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take cellphone 1 from countertop 1",
+                    "take cellphone 2 from countertop 1",
+                    "take papertowelroll 1 from countertop 1",
+                    "take plate 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "inventory",
+                "observation": "You are not carrying anything.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take bread 1 from countertop 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take cellphone 1 from countertop 1",
+                    "take cellphone 2 from countertop 1",
+                    "take papertowelroll 1 from countertop 1",
+                    "take plate 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a bread 2, a houseplant 1, a faucet 1, a statue 1, a plate 2, a cellphone 3, a spoon 1, a fork 1, a creditcard 1, and a butterknife 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take bread 2 from sink 1",
+                    "take houseplant 1 from sink 1",
+                    "take faucet 1 from sink 1",
+                    "take statue 1 from sink 1",
+                    "take plate 2 from sink 1",
+                    "take cellphone 3 from sink 1",
+                    "take spoon 1 from sink 1",
+                    "take fork 1 from sink 1",
+                    "take creditcard 1 from sink 1",
+                    "take butterknife 1 from sink 1",
+                    "inventory",
+                    "examine sink 1"
+                ]
+            },
+            {
+                "action": "take plate 2 from sink 1",
+                "observation": "You pick up the plate 2 from the sink 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put plate 2 in/on sink 1",
+                    "clean plate 2 with sink 1",
+                    "clean plate 2 with sinkbasin 1",
+                    "inventory",
+                    "examine plate 2",
+                    "examine sink 1"
+                ]
+            },
+            {
+                "action": "clean plate 2 with sink 1",
+                "observation": "You clean the plate 2 using the sink 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put plate 2 in/on sink 1",
+                    "clean plate 2 with sink 1",
+                    "clean plate 2 with sinkbasin 1",
+                    "inventory",
+                    "examine plate 2",
+                    "examine sink 1"
+                ]
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a plate 1, a cellphone 1, a soapbottle 1, a cellphone 2, and a papertowelroll 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put plate 2 in/on countertop 1",
+                    "inventory",
+                    "examine plate 2",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "put plate 2 in/on countertop 1",
+                "observation": "You put the plate 2 in/on the countertop 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take bread 1 from countertop 1",
+                    "take plate 1 from countertop 1",
+                    "take cellphone 1 from countertop 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take cellphone 2 from countertop 1",
+                    "take papertowelroll 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a soapbottle 1, a cellphone 1, a cellphone 2, a papertowelroll 1, and a plate 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "take plate 1 from countertop 1",
+                "observation": "You pick up the plate 1 from the countertop 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "examine plate 1",
+                "observation": "This is a normal plate 1",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put plate 1 in/on countertop 1",
+                "observation": "You put the plate 1 in/on the countertop 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "inventory",
+                "observation": "You are not carrying anything.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "inventory",
+                "observation": "You are not carrying anything.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a bread 2, a houseplant 1, a faucet 1, a statue 1, a plate 2, a cellphone 3, a spoon 1, a fork 1, a creditcard 1, and a butterknife 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "take plate 2 from sink 1",
+                "observation": "You pick up the plate 2 from the sink 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "clean plate 2 with sink 1",
+                "observation": "You clean the plate 2 using the sink 1.",
+                "score": [
+                    0.6666666666666666
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a plate 1, a cellphone 1, a soapbottle 1, a cellphone 2, and a papertowelroll 1.",
+                "score": [
+                    0.6666666666666666
+                ],
+                "done": false
+            },
+            {
+                "action": "put plate 2 in/on countertop 1",
+                "observation": "You put the plate 2 in/on the countertop 1.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-Cabinet-424/trial_T20190909_081746_857594",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a toilet 1, a cabinet 1, a sinkbasin 1, a cabinet 2, a countertop 1, a toiletpaperhanger 1, a towelholder 1, a cabinet 3, a cabinet 4, and a sinkbasin 2.\n\nYour task is to: find two soapbar and put them in cabinet",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to cabinet 2",
+                "observation": "You arrive at loc 3. The cabinet 2 is closed. ",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 2",
+                    "close cabinet 2",
+                    "inventory",
+                    "examine cabinet 2"
+                ]
+            },
+            {
+                "action": "open cabinet 2",
+                "observation": "You open the cabinet 2. The cabinet 2 is open. In it, you see a faucet 1, a faucet 2, a soapbottle 1, a spraybottle 1, a spraybottle 2, a toiletpaper 1, a soapbottle 2, a soapbar 1, a soapbar 2, and a candle 1.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 2",
+                    "close cabinet 2",
+                    "take faucet 1 from cabinet 2",
+                    "take faucet 2 from cabinet 2",
+                    "take soapbottle 1 from cabinet 2",
+                    "take spraybottle 1 from cabinet 2",
+                    "take spraybottle 2 from cabinet 2",
+                    "take toiletpaper 1 from cabinet 2",
+                    "take soapbottle 2 from cabinet 2",
+                    "take soapbar 1 from cabinet 2",
+                    "take soapbar 2 from cabinet 2",
+                    "take candle 1 from cabinet 2",
+                    "inventory",
+                    "examine cabinet 2"
+                ]
+            },
+            {
+                "action": "take soapbar 1 from cabinet 2",
+                "observation": "You pick up the soapbar 1 from the cabinet 2.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 2",
+                    "close cabinet 2",
+                    "put soapbar 1 in/on cabinet 2",
+                    "inventory",
+                    "examine soapbar 1",
+                    "examine cabinet 2"
+                ]
+            },
+            {
+                "action": "put soapbar 1 in cabinet 2",
+                "observation": "You put the soapbar 1 in the cabinet 2.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 2",
+                    "close cabinet 2",
+                    "take faucet 1 from cabinet 2",
+                    "take faucet 2 from cabinet 2",
+                    "take soapbottle 1 from cabinet 2",
+                    "take spraybottle 1 from cabinet 2",
+                    "take spraybottle 2 from cabinet 2",
+                    "take toiletpaper 1 from cabinet 2",
+                    "take soapbottle 2 from cabinet 2",
+                    "take soapbar 1 from cabinet 2",
+                    "take soapbar 2 from cabinet 2",
+                    "take candle 1 from cabinet 2",
+                    "inventory",
+                    "examine cabinet 2"
+                ]
+            },
+            {
+                "action": "take soapbar 2 from cabinet 2",
+                "observation": "You pick up the soapbar 2 from the cabinet 2.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 2",
+                    "close cabinet 2",
+                    "put soapbar 2 in/on cabinet 2",
+                    "inventory",
+                    "examine soapbar 2",
+                    "examine cabinet 2"
+                ]
+            },
+            {
+                "action": "put soapbar 2 in cabinet 2",
+                "observation": "You put the soapbar 2 in the cabinet 2.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 2",
+                    "close cabinet 2",
+                    "take faucet 1 from cabinet 2",
+                    "take faucet 2 from cabinet 2",
+                    "take soapbottle 1 from cabinet 2",
+                    "take spraybottle 1 from cabinet 2",
+                    "take spraybottle 2 from cabinet 2",
+                    "take toiletpaper 1 from cabinet 2",
+                    "take soapbottle 2 from cabinet 2",
+                    "take soapbar 1 from cabinet 2",
+                    "take soapbar 2 from cabinet 2",
+                    "take candle 1 from cabinet 2",
+                    "inventory",
+                    "examine cabinet 2"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to cabinet 2",
+                "observation": "You arrive at loc 3. The cabinet 2 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 2",
+                "observation": "You open the cabinet 2. The cabinet 2 is open. In it, you see a faucet 1, a faucet 2, a soapbottle 1, a spraybottle 1, a spraybottle 2, a toiletpaper 1, a soapbottle 2, a soapbar 1, a soapbar 2, and a candle 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take soapbar 1 from cabinet 2",
+                "observation": "You pick up the soapbar 1 from the cabinet 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put soapbar 1 in cabinet 2",
+                "observation": "You put the soapbar 1 in the cabinet 2.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "take soapbar 2 from cabinet 2",
+                "observation": "You pick up the soapbar 2 from the cabinet 2.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "put soapbar 2 in cabinet 2",
+                "observation": "You put the soapbar 2 in the cabinet 2.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Plunger-None-Cabinet-424/trial_T20190908_021537_611374",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a toilet 1, a cabinet 1, a sinkbasin 1, a cabinet 2, a countertop 1, a toiletpaperhanger 1, a towelholder 1, a cabinet 3, a cabinet 4, and a sinkbasin 2.\n\nYour task is to: put a plunger in cabinet",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "inventory",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a handtowel 1, a faucet 1, a spraybottle 1, a scrubbrush 1, a plunger 1, a candle 1, a candle 2, a cloth 1, and a toiletpaper 1.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "take towel 1 from cabinet 1",
+                    "take handtowel 1 from cabinet 1",
+                    "take faucet 1 from cabinet 1",
+                    "take spraybottle 1 from cabinet 1",
+                    "take scrubbrush 1 from cabinet 1",
+                    "take plunger 1 from cabinet 1",
+                    "take candle 1 from cabinet 1",
+                    "take candle 2 from cabinet 1",
+                    "take cloth 1 from cabinet 1",
+                    "take toiletpaper 1 from cabinet 1",
+                    "inventory",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "take plunger 1 from cabinet 1",
+                "observation": "You pick up the plunger 1 from the cabinet 1.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "put plunger 1 in/on cabinet 1",
+                    "inventory",
+                    "examine plunger 1",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "put plunger 1 in cabinet",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "put plunger 1 in/on cabinet 1",
+                    "inventory",
+                    "examine plunger 1",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "put plunger 1 in cabinet 1",
+                "observation": "You put the plunger 1 in the cabinet 1.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "take towel 1 from cabinet 1",
+                    "take handtowel 1 from cabinet 1",
+                    "take faucet 1 from cabinet 1",
+                    "take spraybottle 1 from cabinet 1",
+                    "take scrubbrush 1 from cabinet 1",
+                    "take plunger 1 from cabinet 1",
+                    "take candle 1 from cabinet 1",
+                    "take candle 2 from cabinet 1",
+                    "take cloth 1 from cabinet 1",
+                    "take toiletpaper 1 from cabinet 1",
+                    "inventory",
+                    "examine cabinet 1"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a handtowel 1, a faucet 1, a spraybottle 1, a scrubbrush 1, a plunger 1, a candle 1, a candle 2, a cloth 1, and a toiletpaper 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take plunger 1 from cabinet 1",
+                "observation": "You pick up the plunger 1 from the cabinet 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put plunger 1 in cabinet",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put plunger 1 in cabinet 1",
+                "observation": "You put the plunger 1 in the cabinet 1.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 1, a drawer 1, a drawer 2, a desk 2, a shelf 1, a shelf 2, a shelf 3, a shelf 4, a laundryhamper 1, a drawer 3, a safe 1, a garbagecan 1, a drawer 4, a drawer 5, a drawer 6, a shelf 5, and a shelf 6.\n\nYour task is to: put some mug on desk",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, a cd 1, and a pencil 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take bowl 1 from desk 1",
+                    "take alarmclock 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "take pencil 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "take pencil 1 from desk 1",
+                "observation": "You pick up the pencil 1 from the desk 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put pencil 1 in/on desk 1",
+                    "inventory",
+                    "examine pencil 1",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "go to shelf 1",
+                "observation": "You arrive at loc 5. On the shelf 1, you see a alarmclock 1, a bowl 1, a cd 1, and a pencil 2.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put pencil 1 in/on shelf 1",
+                    "inventory",
+                    "examine pencil 1",
+                    "examine shelf 1"
+                ]
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, and a cd 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put pencil 1 in/on desk 1",
+                    "inventory",
+                    "examine pencil 1",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "put pencil 1 in/on desk 1",
+                "observation": "You put the pencil 1 in/on the desk 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take bowl 1 from desk 1",
+                    "take alarmclock 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take bowl 1 from desk 1",
+                    "take alarmclock 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "go to shelf 1",
+                "observation": "You arrive at loc 5. On the shelf 1, you see a alarmclock 1, a bowl 1, a cd 1, a pencil 2, and a pencil 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take alarmclock 1 from shelf 1",
+                    "take bowl 1 from shelf 1",
+                    "take cd 1 from shelf 1",
+                    "take pencil 2 from shelf 1",
+                    "take pencil 1 from shelf 1",
+                    "inventory",
+                    "examine shelf 1"
+                ]
+            },
+            {
+                "action": "take pencil 1 from shelf 1",
+                "observation": "You pick up the pencil 1 from the shelf 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put pencil 1 in/on shelf 1",
+                    "inventory",
+                    "examine pencil 1",
+                    "examine shelf 1"
+                ]
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, and a cd 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put pencil 1 in/on desk 1",
+                    "inventory",
+                    "examine pencil 1",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "You arrive at loc 6. On the shelf 2, you see a alarmclock 1, a bowl 1, a cd 1, and a pencil 2.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put pencil 1 in/on shelf 2",
+                    "inventory",
+                    "examine pencil 1",
+                    "examine shelf 2"
+                ]
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, and a cd 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put pencil 1 in/on desk 1",
+                    "inventory",
+                    "examine pencil 1",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "put pencil 1 in/on desk 1",
+                "observation": "You put the pencil 1 in/on the desk 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take bowl 1 from desk 1",
+                    "take alarmclock 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take bowl 1 from desk 1",
+                    "take alarmclock 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "You arrive at loc 6. On the shelf 2, you see a alarmclock 1, a bowl 1, a cd 1, a pencil 2, and a pencil 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take alarmclock 1 from shelf 2",
+                    "take bowl 1 from shelf 2",
+                    "take cd 1 from shelf 2",
+                    "take pencil 2 from shelf 2",
+                    "take pencil 1 from shelf 2",
+                    "inventory",
+                    "examine shelf 2"
+                ]
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take alarmclock 1 from shelf 2",
+                    "take bowl 1 from shelf 2",
+                    "take cd 1 from shelf 2",
+                    "take pencil 2 from shelf 2",
+                    "take pencil 1 from shelf 2",
+                    "inventory",
+                    "examine shelf 2"
+                ]
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take alarmclock 1 from shelf 2",
+                    "take bowl 1 from shelf 2",
+                    "take cd 1 from shelf 2",
+                    "take pencil 2 from shelf 2",
+                    "take pencil 1 from shelf 2",
+                    "inventory",
+                    "examine shelf 2"
+                ]
+            },
+            {
+                "action": "take alarmclock 1 from shelf 2",
+                "observation": "You pick up the alarmclock 1 from the shelf 2.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put alarmclock 1 in/on shelf 2",
+                    "inventory",
+                    "examine alarmclock 1",
+                    "examine shelf 2"
+                ]
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, and a cd 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put alarmclock 1 in/on desk 1",
+                    "inventory",
+                    "examine alarmclock 1",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "put alarmclock 1 in/on desk 1",
+                "observation": "You put the alarmclock 1 in/on the desk 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take bowl 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take bowl 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "examine desk 1",
+                "observation": "On the desk 1, you see a alarmclock 1, a bowl 1, a cd 1, and a pencil 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take alarmclock 1 from desk 1",
+                    "take bowl 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "take pencil 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "go to shelf 6",
+                "observation": "You arrive at loc 17. On the shelf 6, you see a mug 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "take mug 1 from shelf 6",
+                    "inventory",
+                    "examine shelf 6"
+                ]
+            },
+            {
+                "action": "take mug 1 from shelf 6",
+                "observation": "You pick up the mug 1 from the shelf 6.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to desk 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "put mug 1 in/on shelf 6",
+                    "inventory",
+                    "examine mug 1",
+                    "examine shelf 6"
+                ]
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a alarmclock 1, a bowl 1, and a cd 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "put mug 1 in/on desk 1",
+                    "inventory",
+                    "examine mug 1",
+                    "examine desk 1"
+                ]
+            },
+            {
+                "action": "put mug 1 in/on desk 1",
+                "observation": "You put the mug 1 in/on the desk 1.",
+                "action_space": [
+                    "go to bed 1",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to desk 2",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to shelf 3",
+                    "go to shelf 4",
+                    "go to laundryhamper 1",
+                    "go to drawer 3",
+                    "go to safe 1",
+                    "go to garbagecan 1",
+                    "go to drawer 4",
+                    "go to drawer 5",
+                    "go to drawer 6",
+                    "go to shelf 5",
+                    "go to shelf 6",
+                    "take alarmclock 1 from desk 1",
+                    "take bowl 1 from desk 1",
+                    "take cd 1 from desk 1",
+                    "inventory",
+                    "examine desk 1"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, a cd 1, and a pencil 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take pencil 1 from desk 1",
+                "observation": "You pick up the pencil 1 from the desk 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 1",
+                "observation": "You arrive at loc 5. On the shelf 1, you see a alarmclock 1, a bowl 1, a cd 1, and a pencil 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, and a cd 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put pencil 1 in/on desk 1",
+                "observation": "You put the pencil 1 in/on the desk 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 1",
+                "observation": "You arrive at loc 5. On the shelf 1, you see a alarmclock 1, a bowl 1, a cd 1, a pencil 2, and a pencil 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take pencil 1 from shelf 1",
+                "observation": "You pick up the pencil 1 from the shelf 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, and a cd 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "You arrive at loc 6. On the shelf 2, you see a alarmclock 1, a bowl 1, a cd 1, and a pencil 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, a alarmclock 1, and a cd 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put pencil 1 in/on desk 1",
+                "observation": "You put the pencil 1 in/on the desk 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "You arrive at loc 6. On the shelf 2, you see a alarmclock 1, a bowl 1, a cd 1, a pencil 2, and a pencil 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take alarmclock 1 from shelf 2",
+                "observation": "You pick up the alarmclock 1 from the shelf 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a bowl 1, and a cd 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put alarmclock 1 in/on desk 1",
+                "observation": "You put the alarmclock 1 in/on the desk 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take mug from...",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "examine desk 1",
+                "observation": "On the desk 1, you see a alarmclock 1, a bowl 1, a cd 1, and a pencil 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 6",
+                "observation": "You arrive at loc 17. On the shelf 6, you see a mug 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take mug 1 from shelf 6",
+                "observation": "You pick up the mug 1 from the shelf 6.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to desk 1",
+                "observation": "You arrive at loc 1. On the desk 1, you see a alarmclock 1, a bowl 1, and a cd 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put mug 1 in/on desk 1",
+                "observation": "You put the mug 1 in/on the desk 1.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121559_082363",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: cool some mug and put it in cabinet",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "inventory",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a bread 1, a bowl 1, and a egg 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "take bread 1 from fridge 1",
+                    "take bowl 1 from fridge 1",
+                    "take egg 1 from fridge 1",
+                    "inventory",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "take egg 1 from fridge 1",
+                "observation": "You pick up the egg 1 from the fridge 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put egg 1 in/on fridge 1",
+                    "cool egg 1 with fridge 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "cool egg 1 with fridge 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put egg 1 in/on fridge 1",
+                    "cool egg 1 with fridge 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "cool egg 1 with fridge 1",
+                "observation": "You cool the egg 1 using the fridge 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put egg 1 in/on fridge 1",
+                    "cool egg 1 with fridge 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "put egg 1 in/on cabinet 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "put egg 1 in cabinet 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "put egg 1 in/on cabinet 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a lettuce 1, a glassbottle 1, and a bread 2.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "put egg 1 in/on cabinet 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "put egg 1 in cabinet 1",
+                "observation": "You put the egg 1 in the cabinet 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "take lettuce 1 from cabinet 1",
+                    "take glassbottle 1 from cabinet 1",
+                    "take bread 2 from cabinet 1",
+                    "inventory",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "inventory",
+                "observation": "You are not carrying anything.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "take lettuce 1 from cabinet 1",
+                    "take glassbottle 1 from cabinet 1",
+                    "take bread 2 from cabinet 1",
+                    "inventory",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a lettuce 2, a bread 2, a lettuce 1, a soapbottle 1, and a mug 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "take lettuce 2 from countertop 1",
+                    "take bread 2 from countertop 1",
+                    "take lettuce 1 from countertop 1",
+                    "take soapbottle 1 from countertop 1",
+                    "take mug 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "take mug 1 from countertop 1",
+                "observation": "You pick up the mug 1 from the countertop 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put mug 1 in/on countertop 1",
+                    "inventory",
+                    "examine mug 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is open. On the fridge 1, you see nothing.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put mug 1 in/on fridge 1",
+                    "cool mug 1 with fridge 1",
+                    "inventory",
+                    "examine mug 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "cool mug 1 with fridge 1",
+                "observation": "You cool the mug 1 using the fridge 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put mug 1 in/on fridge 1",
+                    "cool mug 1 with fridge 1",
+                    "inventory",
+                    "examine mug 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a lettuce 1, a glassbottle 1, a egg 1, and a bread 2.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "put mug 1 in/on cabinet 1",
+                    "inventory",
+                    "examine mug 1",
+                    "examine cabinet 1"
+                ]
+            },
+            {
+                "action": "put mug 1 in cabinet 1",
+                "observation": "You put the mug 1 in the cabinet 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open cabinet 1",
+                    "close cabinet 1",
+                    "take lettuce 1 from cabinet 1",
+                    "take glassbottle 1 from cabinet 1",
+                    "take egg 1 from cabinet 1",
+                    "take bread 2 from cabinet 1",
+                    "inventory",
+                    "examine cabinet 1"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a bread 1, a bowl 1, and a egg 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "take egg 1 from fridge 1",
+                "observation": "You pick up the egg 1 from the fridge 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "cool egg 1 with fridge 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "cool egg 1 with fridge 1",
+                "observation": "You cool the egg 1 using the fridge 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put egg 1 in cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a lettuce 1, a glassbottle 1, and a bread 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put egg 1 in cabinet 1",
+                "observation": "You put the egg 1 in the cabinet 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "inventory",
+                "observation": "You are not carrying anything.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a lettuce 2, a bread 2, a lettuce 1, a soapbottle 1, and a mug 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "take mug 1 from countertop 1",
+                "observation": "You pick up the mug 1 from the countertop 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is open. On the fridge 1, you see nothing.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "cool mug 1 with fridge 1",
+                "observation": "You cool the mug 1 using the fridge 1.",
+                "score": [
+                    0.6666666666666666
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a lettuce 1, a glassbottle 1, a egg 1, and a bread 2.",
+                "score": [
+                    0.6666666666666666
+                ],
+                "done": false
+            },
+            {
+                "action": "put mug 1 in cabinet 1",
+                "observation": "You put the mug 1 in the cabinet 1.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: clean some egg and put it in microwave",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "inventory",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a pan 1, a plate 1, a tomato 1, a apple 1, and a egg 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "take pan 1 from fridge 1",
+                    "take plate 1 from fridge 1",
+                    "take tomato 1 from fridge 1",
+                    "take apple 1 from fridge 1",
+                    "take egg 1 from fridge 1",
+                    "inventory",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "take egg 1 from fridge 1",
+                "observation": "You pick up the egg 1 from the fridge 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open fridge 1",
+                    "close fridge 1",
+                    "put egg 1 in/on fridge 1",
+                    "cool egg 1 with fridge 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine fridge 1"
+                ]
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a apple 2, and a potato 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "heat egg 1 with microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "examine egg 1",
+                "observation": "This is a hot egg 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "close microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "close microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a houseplant 1, a faucet 1, a knife 1, a knife 2, a butterknife 1, a potato 2, a spoon 1, a apple 3, a knife 3, and a cup 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put egg 1 in/on sink 1",
+                    "clean egg 1 with sink 1",
+                    "clean egg 1 with sinkbasin 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine sink 1"
+                ]
+            },
+            {
+                "action": "clean egg 1 with sink 1",
+                "observation": "You clean the egg 1 using the sink 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to microwave 1",
+                    "go to countertop 3",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "put egg 1 in/on sink 1",
+                    "clean egg 1 with sink 1",
+                    "clean egg 1 with sinkbasin 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine sink 1"
+                ]
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a apple 2, and a potato 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "heat egg 1 with microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "inventory",
+                "observation": "You are carrying: a egg 1",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "Nothing happens.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a apple 2, and a potato 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "put egg 1 in/on microwave 1",
+                    "heat egg 1 with microwave 1",
+                    "inventory",
+                    "examine egg 1",
+                    "examine microwave 1"
+                ]
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "You put the egg 1 in/on the microwave 1.",
+                "action_space": [
+                    "go to fridge 1",
+                    "go to cabinet 1",
+                    "go to countertop 1",
+                    "go to toaster 1",
+                    "go to coffeemachine 1",
+                    "go to countertop 2",
+                    "go to cabinet 2",
+                    "go to stoveburner 1",
+                    "go to stoveburner 2",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to countertop 3",
+                    "go to sink 1",
+                    "go to sinkbasin 1",
+                    "go to shelf 1",
+                    "go to shelf 2",
+                    "go to drawer 1",
+                    "go to drawer 2",
+                    "go to drawer 3",
+                    "go to shelf 3",
+                    "go to stoveburner 3",
+                    "go to stoveburner 4",
+                    "go to garbagecan 1",
+                    "open microwave 1",
+                    "close microwave 1",
+                    "take pot 1 from microwave 1",
+                    "take apple 2 from microwave 1",
+                    "take potato 1 from microwave 1",
+                    "inventory",
+                    "examine microwave 1"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a pan 1, a plate 1, a tomato 1, a apple 1, and a egg 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take egg 1 from fridge 1",
+                "observation": "You pick up the egg 1 from the fridge 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a apple 2, and a potato 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "heat egg 1 with microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "examine egg 1",
+                "observation": "This is a hot egg 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "close microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "close microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a houseplant 1, a faucet 1, a knife 1, a knife 2, a butterknife 1, a potato 2, a spoon 1, a apple 3, a knife 3, and a cup 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "clean egg 1 with sink 1",
+                "observation": "You clean the egg 1 using the sink 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a apple 2, and a potato 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "heat egg 1 with microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "inventory",
+                "observation": "You are carrying: a egg 1",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a apple 2, and a potato 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put egg 1 in/on microwave 1",
+                "observation": "You put the egg 1 in/on the microwave 1.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-SoapBottle-None-Toilet-424/trial_T20190907_004321_405868",
+        "messages": [
+            {
+                "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a toilet 1, a cabinet 1, a sinkbasin 1, a cabinet 2, a countertop 1, a toiletpaperhanger 1, a towelholder 1, a cabinet 3, a cabinet 4, and a sinkbasin 2.\n\nYour task is to: put some soapbottle on toilet",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "inventory"
+                ]
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a cloth 1, and a candle 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "take towel 1 from toilet 1",
+                    "take showerdoor 1 from toilet 1",
+                    "take cloth 1 from toilet 1",
+                    "take candle 1 from toilet 1",
+                    "inventory",
+                    "examine toilet 1"
+                ]
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a cloth 1, a faucet 1, a soapbottle 2, a faucet 2, and a handtowel 1.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "take soapbottle 1 from countertop 1",
+                    "take cloth 1 from countertop 1",
+                    "take faucet 1 from countertop 1",
+                    "take soapbottle 2 from countertop 1",
+                    "take faucet 2 from countertop 1",
+                    "take handtowel 1 from countertop 1",
+                    "inventory",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "take soapbottle 1 from countertop 1",
+                "observation": "You pick up the soapbottle 1 from the countertop 1.",
+                "action_space": [
+                    "go to toilet 1",
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "put soapbottle 1 in/on countertop 1",
+                    "inventory",
+                    "examine soapbottle 1",
+                    "examine countertop 1"
+                ]
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a cloth 1, and a candle 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "put soapbottle 1 in/on toilet 1",
+                    "inventory",
+                    "examine soapbottle 1",
+                    "examine toilet 1"
+                ]
+            },
+            {
+                "action": "put soapbottle 1 in/on toilet 1",
+                "observation": "You put the soapbottle 1 in/on the toilet 1.",
+                "action_space": [
+                    "go to cabinet 1",
+                    "go to sinkbasin 1",
+                    "go to cabinet 2",
+                    "go to countertop 1",
+                    "go to toiletpaperhanger 1",
+                    "go to towelholder 1",
+                    "go to cabinet 3",
+                    "go to cabinet 4",
+                    "go to sinkbasin 2",
+                    "take towel 1 from toilet 1",
+                    "take showerdoor 1 from toilet 1",
+                    "take cloth 1 from toilet 1",
+                    "take candle 1 from toilet 1",
+                    "inventory",
+                    "examine toilet 1"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a cloth 1, and a candle 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a cloth 1, a faucet 1, a soapbottle 2, a faucet 2, and a handtowel 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take soapbottle 1 from countertop 1",
+                "observation": "You pick up the soapbottle 1 from the countertop 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a cloth 1, and a candle 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put soapbottle 1 in/on toilet 1",
+                "observation": "You put the soapbottle 1 in/on the toilet 1.",
+                "score": [
+                    1.0
+                ],
+                "done": true
+            }
+        ],
+        "final_score": 1.0,
+        "completed": true,
+        "exceeded_max_round": false
+    }
+]

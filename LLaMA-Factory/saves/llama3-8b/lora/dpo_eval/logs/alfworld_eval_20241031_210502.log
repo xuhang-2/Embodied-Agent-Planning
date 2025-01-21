@@ -1,0 +1,18 @@
+The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:26<01:44, 26.04s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:52<01:18, 26.04s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:18<00:52, 26.10s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:44<00:26, 26.03s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:51<00:00, 19.37s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:51<00:00, 22.35s/it]
+Traceback (most recent call last):
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 377, in <module>
+    asyncio.run(run_chat(args))
+  File "/usr/local/miniconda3/envs/datagen/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/local/miniconda3/envs/datagen/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 240, in run_chat
+    chat_model = ChatModel(vars(args))
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 228, in __init__
+    config = load_alf_config(config_file)
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 42, in load_alf_config
+    config = generic.load_config()
+  File "/mnt/tangyehui/code/mcts_datagen/alfworld/agents/modules/generic.py", line 190, in load_config
+    assert os.path.exists(args.config_file), "Invalid config file"
+AssertionError: Invalid config file

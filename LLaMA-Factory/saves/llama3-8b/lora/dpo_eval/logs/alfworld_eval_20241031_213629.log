@@ -1,0 +1,4 @@
+  File "/mnt/public/tangyehui/code/LLaMA-Factory/evaluation/alfworld/eval_alfworld_multimodal.py", line 287
+    current_obs = 
+                  ^
+SyntaxError: invalid syntax

@@ -1,0 +1,65 @@
+{
+    "success_rate": 0.1,
+    "results": [
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182353_418140",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_121635_622676",
+            "final_score": 0.3333333333333333,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182435_622538",
+            "final_score": 0.3333333333333333,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_161733_213242",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-Fridge-10/trial_T20190906_182259_116320",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10/trial_T20190907_221355_558505",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141942_810052",
+            "final_score": 0.0,
+            "completed": false,
+            "exceeded_max_round": true
+        },
+        {
+            "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Pencil-None-Shelf-308/trial_T20190908_121952_610012",
+            "final_score": 1.0,
+            "completed": true,
+            "exceeded_max_round": false
+        }
+    ]
+}

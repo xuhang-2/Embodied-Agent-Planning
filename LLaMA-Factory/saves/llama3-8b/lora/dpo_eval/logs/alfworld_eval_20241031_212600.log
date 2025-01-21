@@ -1,0 +1,82 @@
+The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:25<01:41, 25.33s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:50<01:15, 25.12s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:15<00:50, 25.18s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:41<00:25, 25.44s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:49<00:00, 19.01s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:49<00:00, 21.80s/it]
+Found path: /root/.ai2thor/releases/thor-201909061227-Linux64/thor-201909061227-Linux64
+Mono path[0] = '/root/.ai2thor/releases/thor-201909061227-Linux64/thor-201909061227-Linux64_Data/Managed'
+Mono config path = '/root/.ai2thor/releases/thor-201909061227-Linux64/thor-201909061227-Linux64_Data/Mono/etc'
+Unable to preload the following plugins:
+	ScreenSelector.so
+Display 0 'screen': 1024x768 (primary device).
+Logging to /root/.config/unity3d/Allen Institute for Artificial Intelligence/AI2-Thor/Player.log
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5701:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5701:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+/mnt/tangyehui/code/LLaMA-Factory/evaluation/alfworld/base_config_v1.yaml
+Initialize AlfredThorEnv...
+Overall we have 134 games...
+Evaluating with 134 games
+Overall we have 134 games...
+Evaluating with 134 games
+ThorEnv started.
+Environment type: AlfredThorEnv
+Batch size: 1
+Welcome to the ALFWorld CLI. Running tasks automatically.
+Resetting ThorEnv
+Task: put a vase in safe
+messages:[{'role': 'user', 'content': "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a armchair 1, a dresser 1, a sofa 1, a cabinet 1, a cabinet 2, a drawer 1, a drawer 2, a cabinet 3, a cabinet 4, a drawer 3, a drawer 4, a sidetable 1, a drawer 5, a shelf 1, a shelf 2, a shelf 3, a safe 1, a shelf 4, a shelf 5, a shelf 6, a shelf 7, a shelf 8, a shelf 9, and a shelf 10.\n\nYour task is to: put a vase in safe\n The candidate actions are ['go to armchair 1', 'go to dresser 1', 'go to sof1', 'go to cabinet 1', 'go to cabinet 2', 'go to drawer 1', 'go to drawer 2', 'go to cabinet 3', 'go to cabinet 4', 'go to drawer 3', 'go to drawer 4', 'go to sidetable 1', 'go to drawer 5', 'go to shelf 1', 'go to shelf 2', 'go to shelf 3', 'go to safe 1', 'go to shelf 4', 'go to shelf 5', 'go to shelf 6', 'go to shelf 7', 'go to shelf 8', 'go to shelf 9', 'go to shelf 10', 'inventory']", 'frame_path': '/mnt/tangyehui/code/LLaMA-Factory/saves/llama3-8b/lora/dpo_eval/images/eval_out_of_distribution_llama3_20241031_212805/1/0001.png'}]
+Error in GPT4Engine chat: 'what_you_see'
+Error during step execution: the JSON object must be str, bytes or bytearray, not list
+Error occurred during step execution. Resetting environment.
+
+Task 1 failed 
+
+Resetting ThorEnv
+Task: put a hot apple in fridge
+messages:[{'role': 'user', 'content': "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: put a hot apple in fridge\n The candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to countertop 2', 'go to cabinet 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'inventory']", 'frame_path': '/mnt/tangyehui/code/LLaMA-Factory/saves/llama3-8b/lora/dpo_eval/images/eval_out_of_distribution_llama3_20241031_212805/2/0001.png'}]
+Error in GPT4Engine chat: 'what_you_see'
+Error during step execution: the JSON object must be str, bytes or bytearray, not list
+Error occurred during step execution. Resetting environment.
+
+Task 2 failed 
+
+Resetting ThorEnv
+Task: put a clean pan in countertop
+messages:[{'role': 'user', 'content': "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: put a clean pan in countertop\n The candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to countertop 2', 'go to cabinet 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'inventory']", 'frame_path': '/mnt/tangyehui/code/LLaMA-Factory/saves/llama3-8b/lora/dpo_eval/images/eval_out_of_distribution_llama3_20241031_212805/3/0001.png'}]
+Error in GPT4Engine chat: 'what_you_see'
+Error during step execution: the JSON object must be str, bytes or bytearray, not list
+Error occurred during step execution. Resetting environment.
+
+Task 3 failed 
+
+Resetting ThorEnv
+Task: put a cool mug in cabinet
+messages:[{'role': 'user', 'content': "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a cabinet 2, a countertop 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: cool some mug and put it in cabinet\n The candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to cabinet 2', 'go to countertop 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'inventory']", 'frame_path': '/mnt/tangyehui/code/LLaMA-Factory/saves/llama3-8b/lora/dpo_eval/images/eval_out_of_distribution_llama3_20241031_212805/4/0001.png'}]
+Error in GPT4Engine chat: 'what_you_see'
+Error during step execution: the JSON object must be str, bytes or bytearray, not list
+Error occurred during step execution. Resetting environment.
+
+Task 4 failed 
+
+Resetting ThorEnv
+Task: heat some apple and put it in fridge
+messages:[{'role': 'user', 'content': "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: put a hot apple in fridge\n The candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to countertop 2', 'go to cabinet 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'inventory']", 'frame_path': '/mnt/tangyehui/code/LLaMA-Factory/saves/llama3-8b/lora/dpo_eval/images/eval_out_of_distribution_llama3_20241031_212805/5/0001.png'}]
+Error in GPT4Engine chat: 'what_you_see'
+Error during step execution: the JSON object must be str, bytes or bytearray, not list
+Error occurred during step execution. Resetting environment.
+
+Task 5 failed 
+
+Resetting ThorEnv
+Task: examine the mug with the desklamp

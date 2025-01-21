@@ -1,0 +1,3272 @@
+[
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Cup-None-Cabinet-10/trial_T20190907_083507_594820",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: put a hot cup in cabinet"
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 7. On the stoveburner 1, you see a pot 1, a soapbottle 1, a mug 1, a bowl 1, and a stoveknob 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 8. On the stoveburner 2, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 21. On the stoveburner 3, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 22. On the stoveburner 4, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sink 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 13. On the sink 1, you see a houseplant 1, a lettuce 2, a mug 2, a faucet 1, a soapbottle 2, a spatula 1, a butterknife 2, a peppershaker 1, a fork 1, and a spoon 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the countertop 1, you see a bread 1, a lettuce 1, a vase 1, a cellphone 1, a fork 2, a butterknife 1, a spatula 2, and a creditcard 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the countertop 2, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 12. On the countertop 3, you see a papertowelroll 1, a soapbottle 2, a mug 2, a lettuce 2, a faucet 1, a spoon 2, a pan 2, a peppershaker 1, a knife 1, a statue 1, a peppershaker 2, a lightswitch 1, a vase 2, a fork 1, a spoon 1, a dishsponge 1, and a butterknife 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 15. On the shelf 1, you see a statue 1, a lightswitch 1, a vase 2, and a dishsponge 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 16. On the shelf 2, you see a statue 1, a vase 2, a dishsponge 1, and a lightswitch 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 20. On the shelf 3, you see a statue 1, a vase 2, a dishsponge 1, and a lightswitch 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 11. The microwave 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a potato 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the microwave 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to garbagecan 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 23. On the garbagecan 1, you see a soapbottle 3, and a egg 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to drawer 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 17. The drawer 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open drawer 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the drawer 1. The drawer 1 is open. In it, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close drawer 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the drawer 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to drawer 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 18. The drawer 2 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open drawer 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the drawer 2. The drawer 2 is open. In it, you see a bread 1, a pan 2, a knife 1, a statue 1, a peppershaker 2, a vase 2, a cellphone 1, a lettuce 1, a fork 1, a fork 2, a lightswitch 1, and a dishsponge 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close drawer 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the drawer 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to drawer 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 19. The drawer 3 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open drawer 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the drawer 3. The drawer 3 is open. In it, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close drawer 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the drawer 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to coffeemachine 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 4. On the coffeemachine 1, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the countertop 1, you see a bread 1, a lettuce 1, a vase 1, a cellphone 1, a fork 2, a butterknife 1, a spatula 2, and a creditcard 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the countertop 2, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 12. On the countertop 3, you see a papertowelroll 1, a soapbottle 2, a mug 2, a lettuce 2, a faucet 1, a spoon 2, a pan 2, a peppershaker 1, a knife 1, a statue 1, a peppershaker 2, a lightswitch 1, a vase 2, a fork 1, a spoon 1, a dishsponge 1, and a butterknife 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1, a fork 2, and a saltshaker 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 6. The cabinet 2 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 2. The cabinet 2 is open. In it, you see a pot 1, a soapbottle 1, a mug 1, a bowl 1, a stoveknob 1, and a saltshaker 2."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 9. The cabinet 3 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 3. The cabinet 3 is open. In it, you see a cup 1."
+            },
+            {
+                "role": "assistant",
+                "content": "take cup 1 from cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the cup 1 from the cabinet 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 11. The microwave 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "heat cup 1 with microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You heat the cup 1 using the microwave 1.\nThe candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to countertop 2', 'go to cabinet 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'open microwave 1', 'close microwave 1', 'put cup 1 in/on microwave 1', 'heat cup 1 with microwave 1', 'inventory', 'examine cup 1', 'examine microwave 1']"
+            },
+            {
+                "role": "assistant",
+                "content": "look at cup 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You are facing the microwave 1. Next to it, you see nothing.\n The candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to countertop 2', 'go to cabinet 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'open microwave 1', 'close microwave 1', 'put cup 1 in/on microwave 1', 'heat cup 1 with microwave 1', 'inventory', 'examine cup 1', 'examine microwave 1']"
+            }
+        ],
+        "history": [
+            {
+                "action": "go to stoveburner 1",
+                "observation": "You arrive at loc 7. On the stoveburner 1, you see a pot 1, a soapbottle 1, a mug 1, a bowl 1, and a stoveknob 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 2",
+                "observation": "You arrive at loc 8. On the stoveburner 2, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 3",
+                "observation": "You arrive at loc 21. On the stoveburner 3, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 4",
+                "observation": "You arrive at loc 22. On the stoveburner 4, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a houseplant 1, a lettuce 2, a mug 2, a faucet 1, a soapbottle 2, a spatula 1, a butterknife 2, a peppershaker 1, a fork 1, and a spoon 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a lettuce 1, a vase 1, a cellphone 1, a fork 2, a butterknife 1, a spatula 2, and a creditcard 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 2",
+                "observation": "You arrive at loc 5. On the countertop 2, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 3",
+                "observation": "You arrive at loc 12. On the countertop 3, you see a papertowelroll 1, a soapbottle 2, a mug 2, a lettuce 2, a faucet 1, a spoon 2, a pan 2, a peppershaker 1, a knife 1, a statue 1, a peppershaker 2, a lightswitch 1, a vase 2, a fork 1, a spoon 1, a dishsponge 1, and a butterknife 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 1",
+                "observation": "You arrive at loc 15. On the shelf 1, you see a statue 1, a lightswitch 1, a vase 2, and a dishsponge 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "You arrive at loc 16. On the shelf 2, you see a statue 1, a vase 2, a dishsponge 1, and a lightswitch 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 3",
+                "observation": "You arrive at loc 20. On the shelf 3, you see a statue 1, a vase 2, a dishsponge 1, and a lightswitch 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, a potato 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close microwave 1",
+                "observation": "You close the microwave 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to garbagecan 1",
+                "observation": "You arrive at loc 23. On the garbagecan 1, you see a soapbottle 3, and a egg 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to drawer 1",
+                "observation": "You arrive at loc 17. The drawer 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open drawer 1",
+                "observation": "You open the drawer 1. The drawer 1 is open. In it, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close drawer 1",
+                "observation": "You close the drawer 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to drawer 2",
+                "observation": "You arrive at loc 18. The drawer 2 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open drawer 2",
+                "observation": "You open the drawer 2. The drawer 2 is open. In it, you see a bread 1, a pan 2, a knife 1, a statue 1, a peppershaker 2, a vase 2, a cellphone 1, a lettuce 1, a fork 1, a fork 2, a lightswitch 1, and a dishsponge 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close drawer 2",
+                "observation": "You close the drawer 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to drawer 3",
+                "observation": "You arrive at loc 19. The drawer 3 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open drawer 3",
+                "observation": "You open the drawer 3. The drawer 3 is open. In it, you see a pot 1, a pan 1, a glassbottle 1, a vase 1, a lettuce 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a stoveknob 1, a butterknife 1, a cellphone 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close drawer 3",
+                "observation": "You close the drawer 3.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to coffeemachine 1",
+                "observation": "You arrive at loc 4. On the coffeemachine 1, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a lettuce 1, a vase 1, a cellphone 1, a fork 2, a butterknife 1, a spatula 2, and a creditcard 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 2",
+                "observation": "You arrive at loc 5. On the countertop 2, you see a pot 1, a soapbottle 1, a mug 1, and a bowl 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 3",
+                "observation": "You arrive at loc 12. On the countertop 3, you see a papertowelroll 1, a soapbottle 2, a mug 2, a lettuce 2, a faucet 1, a spoon 2, a pan 2, a peppershaker 1, a knife 1, a statue 1, a peppershaker 2, a lightswitch 1, a vase 2, a fork 1, a spoon 1, a dishsponge 1, and a butterknife 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1, a fork 2, and a saltshaker 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 2",
+                "observation": "You arrive at loc 6. The cabinet 2 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 2",
+                "observation": "You open the cabinet 2. The cabinet 2 is open. In it, you see a pot 1, a soapbottle 1, a mug 1, a bowl 1, a stoveknob 1, and a saltshaker 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 2",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 3",
+                "observation": "You arrive at loc 9. The cabinet 3 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 3",
+                "observation": "You open the cabinet 3. The cabinet 3 is open. In it, you see a cup 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "take cup 1 from cabinet 3",
+                "observation": "You pick up the cup 1 from the cabinet 3.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "heat cup 1 with microwave 1",
+                "observation": "You heat the cup 1 using the microwave 1.",
+                "score": [
+                    0.6666666666666666
+                ],
+                "done": false
+            },
+            {
+                "action": "look at cup 1",
+                "observation": "You are facing the microwave 1. Next to it, you see nothing.",
+                "score": [
+                    0.6666666666666666
+                ],
+                "done": false
+            }
+        ],
+        "final_score": 0.6666666666666666,
+        "completed": false,
+        "exceeded_max_round": true
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10/trial_T20190909_174807_646433",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a cabinet 2, a countertop 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: cool some lettuce and put it in countertop"
+            },
+            {
+                "role": "assistant",
+                "content": "go to sink 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 13. On the sink 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a soapbottle 1, a mug 1, a tomato 1, a lettuce 1, a butterknife 1, a egg 1, a dishsponge 1, and a knife 1."
+            },
+            {
+                "role": "assistant",
+                "content": "take lettuce 1 from sink 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the lettuce 1 from the sink 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "cool lettuce 1 with fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the countertop 1, you see a bread 1, a soapbottle 2, a plate 1, a bowl 1, a tomato 2, a knife 2, a saltshaker 1, a spatula 1, a fork 1, a butterknife 2, and a fork 2."
+            },
+            {
+                "role": "assistant",
+                "content": "put lettuce 1 in/on countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You put the lettuce 1 in/on the countertop 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. The fridge 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the fridge 1. The fridge 1 is open. In it, you see a pan 1, a bowl 2, a plate 2, a cup 1, a potato 1, and a egg 2."
+            },
+            {
+                "role": "assistant",
+                "content": "close fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the fridge 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sink 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 13. On the sink 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a soapbottle 1, a mug 1, a tomato 1, a butterknife 1, a egg 1, a dishsponge 1, and a knife 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to garbagecan 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 23. On the garbagecan 1, you see a papertowelroll 1, and a apple 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 15. On the shelf 1, you see a statue 1, a vase 1, a lightswitch 1, a vase 2, and a dishsponge 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 16. On the shelf 2, you see a statue 1, a vase 1, a vase 2, a dishsponge 2, a lightswitch 1, and a creditcard 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 20. On the shelf 3, you see a statue 1, a vase 1, a vase 2, a dishsponge 2, a lightswitch 1, and a creditcard 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 6. On the countertop 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 12. On the countertop 3, you see a knife 3, a glassbottle 1, a faucet 1, a soapbottle 1, a bread 2, a mug 1, a tomato 1, a knife 1, a dishsponge 1, a statue 1, a apple 3, a egg 3, a egg 1, a butterknife 1, a lightswitch 1, a vase 2, a dishsponge 2, a spoon 1, a vase 1, and a butterknife 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1, a glassbottle 3, a saltshaker 1, and a plate 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. The cabinet 2 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 2. The cabinet 2 is open. In it, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a plate 3, a cellphone 1, a stoveknob 1, a spatula 2, a apple 2, and a peppershaker 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 9. The cabinet 3 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 3. The cabinet 3 is open. In it, you see a mug 2."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 10. The cabinet 4 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 4. The cabinet 4 is open. In it, you see nothing."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the countertop 1, you see a bread 1, a lettuce 1, a soapbottle 2, a plate 1, a bowl 1, a tomato 2, a knife 2, a saltshaker 1, a fork 1, a fork 2, a spatula 1, and a butterknife 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 6. On the countertop 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 12. On the countertop 3, you see a knife 3, a glassbottle 1, a faucet 1, a soapbottle 1, a bread 2, a mug 1, a tomato 1, a knife 1, a dishsponge 1, a statue 1, a apple 3, a egg 3, a egg 1, a butterknife 1, a lightswitch 1, a vase 2, a dishsponge 2, a spoon 1, a vase 1, and a butterknife 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1, a glassbottle 3, a saltshaker 1, and a plate 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 6. On the countertop 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 12. On the countertop 3, you see a knife 3, a glassbottle 1, a faucet 1, a soapbottle 1, a bread 2, a mug 1, a tomato 1, a knife 1, a dishsponge 1, a statue 1, a apple 3, a egg 3, a egg 1, a butterknife 1, a lightswitch 1, a vase 2, a dishsponge 2, a spoon 1, a vase 1, and a butterknife 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 7. On the stoveburner 1, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a stoveknob 1, a spatula 2, and a apple 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 8. On the stoveburner 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 21. On the stoveburner 3, you see a pot 1, a pan 2, a bowl 1, a tomato 2, a spatula 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a plate 1, a stoveknob 1, a soapbottle 2, a butterknife 2, and a fork 2.\nThe candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to cabinet 2', 'go to countertop 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 4', 'go to garbagecan 1', 'take pot 1 from stoveburner 3', 'take pan 2 from stoveburner 3', 'take bowl 1 from stoveburner 3', 'take tomato 2 from stoveburner 3', 'take spatul1 from stoveburner 3', 'take stoveknob 2 from stoveburner 3', 'take stoveknob 3 from stoveburner 3', 'take stoveknob 4 from stoveburner 3', 'take plate 1 from stoveburner 3', 'take stoveknob 1 from stoveburner 3', 'take soapbottle 2 from stoveburner 3', 'take butterknife 2 from stoveburner 3', 'take fork 2 from stoveburner 3', 'inventory', 'examine stoveburner 3']"
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 22. On the stoveburner 4, you see a pot 1, a pan 2, a bowl 1, a tomato 2, a spatula 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a plate 1, a stoveknob 1, a soapbottle 2, a butterknife 2, and a fork 2.\n The candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to cabinet 2', 'go to countertop 2', 'go to stoveburner 1', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to garbagecan 1', 'take pot 1 from stoveburner 4', 'take pan 2 from stoveburner 4', 'take bowl 1 from stoveburner 4', 'take tomato 2 from stoveburner 4', 'take spatul1 from stoveburner 4', 'take stoveknob 2 from stoveburner 4', 'take stoveknob 3 from stoveburner 4', 'take stoveknob 4 from stoveburner 4', 'take plate 1 from stoveburner 4', 'take stoveknob 1 from stoveburner 4', 'take soapbottle 2 from stoveburner 4', 'take butterknife 2 from stoveburner 4', 'take fork 2 from stoveburner 4', 'inventory', 'examine stoveburner 4']"
+            }
+        ],
+        "history": [
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a soapbottle 1, a mug 1, a tomato 1, a lettuce 1, a butterknife 1, a egg 1, a dishsponge 1, and a knife 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "take lettuce 1 from sink 1",
+                "observation": "You pick up the lettuce 1 from the sink 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "cool lettuce 1 with fridge 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a soapbottle 2, a plate 1, a bowl 1, a tomato 2, a knife 2, a saltshaker 1, a spatula 1, a fork 1, a butterknife 2, and a fork 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "put lettuce 1 in/on countertop 1",
+                "observation": "You put the lettuce 1 in/on the countertop 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a pan 1, a bowl 2, a plate 2, a cup 1, a potato 1, and a egg 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close fridge 1",
+                "observation": "You close the fridge 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a soapbottle 1, a mug 1, a tomato 1, a butterknife 1, a egg 1, a dishsponge 1, and a knife 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to garbagecan 1",
+                "observation": "You arrive at loc 23. On the garbagecan 1, you see a papertowelroll 1, and a apple 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 1",
+                "observation": "You arrive at loc 15. On the shelf 1, you see a statue 1, a vase 1, a lightswitch 1, a vase 2, and a dishsponge 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "You arrive at loc 16. On the shelf 2, you see a statue 1, a vase 1, a vase 2, a dishsponge 2, a lightswitch 1, and a creditcard 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 3",
+                "observation": "You arrive at loc 20. On the shelf 3, you see a statue 1, a vase 1, a vase 2, a dishsponge 2, a lightswitch 1, and a creditcard 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 2",
+                "observation": "You arrive at loc 6. On the countertop 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 3",
+                "observation": "You arrive at loc 12. On the countertop 3, you see a knife 3, a glassbottle 1, a faucet 1, a soapbottle 1, a bread 2, a mug 1, a tomato 1, a knife 1, a dishsponge 1, a statue 1, a apple 3, a egg 3, a egg 1, a butterknife 1, a lightswitch 1, a vase 2, a dishsponge 2, a spoon 1, a vase 1, and a butterknife 3.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1, a glassbottle 3, a saltshaker 1, and a plate 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 2",
+                "observation": "You arrive at loc 5. The cabinet 2 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 2",
+                "observation": "You open the cabinet 2. The cabinet 2 is open. In it, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a plate 3, a cellphone 1, a stoveknob 1, a spatula 2, a apple 2, and a peppershaker 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 2",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 3",
+                "observation": "You arrive at loc 9. The cabinet 3 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 3",
+                "observation": "You open the cabinet 3. The cabinet 3 is open. In it, you see a mug 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 3",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 4",
+                "observation": "You arrive at loc 10. The cabinet 4 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 4",
+                "observation": "You open the cabinet 4. The cabinet 4 is open. In it, you see nothing.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 4",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a bread 1, a lettuce 1, a soapbottle 2, a plate 1, a bowl 1, a tomato 2, a knife 2, a saltshaker 1, a fork 1, a fork 2, a spatula 1, and a butterknife 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 2",
+                "observation": "You arrive at loc 6. On the countertop 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 3",
+                "observation": "You arrive at loc 12. On the countertop 3, you see a knife 3, a glassbottle 1, a faucet 1, a soapbottle 1, a bread 2, a mug 1, a tomato 1, a knife 1, a dishsponge 1, a statue 1, a apple 3, a egg 3, a egg 1, a butterknife 1, a lightswitch 1, a vase 2, a dishsponge 2, a spoon 1, a vase 1, and a butterknife 3.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1, a glassbottle 3, a saltshaker 1, and a plate 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 2",
+                "observation": "You arrive at loc 6. On the countertop 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 3",
+                "observation": "You arrive at loc 12. On the countertop 3, you see a knife 3, a glassbottle 1, a faucet 1, a soapbottle 1, a bread 2, a mug 1, a tomato 1, a knife 1, a dishsponge 1, a statue 1, a apple 3, a egg 3, a egg 1, a butterknife 1, a lightswitch 1, a vase 2, a dishsponge 2, a spoon 1, a vase 1, and a butterknife 3.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 1",
+                "observation": "You arrive at loc 7. On the stoveburner 1, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a stoveknob 1, a spatula 2, and a apple 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 2",
+                "observation": "You arrive at loc 8. On the stoveburner 2, you see a pot 1, a glassbottle 2, a lettuce 2, a cup 2, a cellphone 1, a spatula 2, and a apple 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 3",
+                "observation": "You arrive at loc 21. On the stoveburner 3, you see a pot 1, a pan 2, a bowl 1, a tomato 2, a spatula 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a plate 1, a stoveknob 1, a soapbottle 2, a butterknife 2, and a fork 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 4",
+                "observation": "You arrive at loc 22. On the stoveburner 4, you see a pot 1, a pan 2, a bowl 1, a tomato 2, a spatula 1, a stoveknob 2, a stoveknob 3, a stoveknob 4, a plate 1, a stoveknob 1, a soapbottle 2, a butterknife 2, and a fork 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            }
+        ],
+        "final_score": 0.3333333333333333,
+        "completed": false,
+        "exceeded_max_round": true
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-ToiletPaper-None-Cabinet-424/trial_T20190906_202926_527010",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a toilet 1, a cabinet 1, a sinkbasin 1, a cabinet 2, a countertop 1, a toiletpaperhanger 1, a towelholder 1, a cabinet 3, a cabinet 4, and a sinkbasin 2.\n\nYour task is to: put two toiletpaper in cabinet"
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbar 3, and a toiletpaper 2."
+            },
+            {
+                "role": "assistant",
+                "content": "take toiletpaper 2 from toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the toiletpaper 2 from the toiletpaperhanger 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 2 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "take toiletpaper 1 from toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 1 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 1 in/on toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You put the toiletpaper 1 in/on the toilet 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "take toiletpaper 2 from toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the toiletpaper 2 from the toiletpaperhanger 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 2 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 1 in/on toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You put the toiletpaper 1 in/on the toilet 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "take toiletpaper 2 from toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the toiletpaper 2 from the toiletpaperhanger 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 2 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 2 in/on toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You put the toiletpaper 2 in/on the toilet 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "take toiletpaper 1 from toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the toiletpaper 1 from the toiletpaperhanger 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, a soapbar 3, and a scrubbrush 1."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 1 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, a soapbar 3, and a scrubbrush 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 2, a soapbar 1, and a soapbar 2."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 1 in/on toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You put the toiletpaper 1 in/on the toilet 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "take toiletpaper 2 from toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the toiletpaper 2 from the toiletpaperhanger 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "put toiletpaper 2 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toiletpaperhanger 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2.\nThe candidate actions are ['go to cabinet 1', 'go to sinkbasin 1', 'go to cabinet 2', 'go to countertop 1', 'go to toiletpaperhanger 1', 'go to towelholder 1', 'go to cabinet 3', 'go to cabinet 4', 'go to sinkbasin 2', 'put toiletpaper 2 in/on toilet 1', 'inventory', 'examine toiletpaper 2', 'examine toilet 1']"
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 4. On the countertop 1, you see a soapbottle 2, a faucet 1, a spraybottle 1, a toiletpaper 3, a soapbar 3, a faucet 2, a candle 1, a handtowel 1, a candle 2, and a cloth 1.\n The candidate actions are ['go to toilet 1', 'go to cabinet 1', 'go to sinkbasin 1', 'go to cabinet 2', 'go to toiletpaperhanger 1', 'go to towelholder 1', 'go to cabinet 3', 'go to cabinet 4', 'go to sinkbasin 2', 'put toiletpaper 2 in/on countertop 1', 'inventory', 'examine toiletpaper 2', 'examine countertop 1']"
+            }
+        ],
+        "history": [
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbar 3, and a toiletpaper 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take toiletpaper 2 from toiletpaperhanger 1",
+                "observation": "You pick up the toiletpaper 2 from the toiletpaperhanger 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 2 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take toiletpaper 1 from toiletpaperhanger 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 1 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 1 in/on toilet 1",
+                "observation": "You put the toiletpaper 1 in/on the toilet 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take toiletpaper 2 from toiletpaperhanger 1",
+                "observation": "You pick up the toiletpaper 2 from the toiletpaperhanger 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 2 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 1 in/on toilet 1",
+                "observation": "You put the toiletpaper 1 in/on the toilet 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take toiletpaper 2 from toiletpaperhanger 1",
+                "observation": "You pick up the toiletpaper 2 from the toiletpaperhanger 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 2 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 2 in/on toilet 1",
+                "observation": "You put the toiletpaper 2 in/on the toilet 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take toiletpaper 1 from toiletpaperhanger 1",
+                "observation": "You pick up the toiletpaper 1 from the toiletpaperhanger 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, a soapbar 3, and a scrubbrush 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 1 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, a soapbar 3, and a scrubbrush 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 2, a soapbar 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 1 in/on toilet 1",
+                "observation": "You put the toiletpaper 1 in/on the toilet 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a plunger 1, a soapbottle 1, a toiletpaper 2, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take toiletpaper 2 from toiletpaperhanger 1",
+                "observation": "You pick up the toiletpaper 2 from the toiletpaperhanger 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is open. On the cabinet 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put toiletpaper 2 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.5
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toiletpaperhanger 1",
+                "observation": "You arrive at loc 5. On the toiletpaperhanger 1, you see a towel 1, a handtowel 1, a faucet 1, a scrubbrush 1, a toiletpaper 1, a soapbottle 1, a plunger 1, a cloth 1, a soapbar 1, a soapbar 2, and a soapbar 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a toiletpaper 1, a soapbar 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 2, a faucet 1, a spraybottle 1, a toiletpaper 3, a soapbar 3, a faucet 2, a candle 1, a handtowel 1, a candle 2, and a cloth 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            }
+        ],
+        "final_score": 0.0,
+        "completed": false,
+        "exceeded_max_round": true
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Bread-None-CounterTop-10/trial_T20190908_091747_866951",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a fridge 1, a cabinet 1, a countertop 1, a toaster 1, a coffeemachine 1, a countertop 2, a cabinet 2, a stoveburner 1, a stoveburner 2, a cabinet 3, a cabinet 4, a microwave 1, a countertop 3, a sink 1, a sinkbasin 1, a shelf 1, a shelf 2, a drawer 1, a drawer 2, a drawer 3, a shelf 3, a stoveburner 3, a stoveburner 4, and a garbagecan 1.\n\nYour task is to: put a cool bread in countertop"
+            },
+            {
+                "role": "assistant",
+                "content": "go to microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 11. The microwave 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, and a potato 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the microwave 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to garbagecan 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 23. On the garbagecan 1, you see a pot 2, a papertowelroll 1, a egg 1, and a knife 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. The fridge 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the fridge 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the countertop 1, you see a spatula 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the countertop 2, you see a pot 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 12. On the countertop 3, you see a statue 1, a vase 1, a tomato 1, a vase 2, a pot 2, a glassbottle 1, a faucet 1, a bread 1, a apple 1, a peppershaker 1, a butterknife 1, a mug 1, a bowl 1, a cup 1, a cellphone 1, a potato 2, a statue 2, a saltshaker 1, a lightswitch 1, a knife 1, and a bowl 2."
+            },
+            {
+                "role": "assistant",
+                "content": "take bread 1 from countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the bread 1 from the countertop 3."
+            },
+            {
+                "role": "assistant",
+                "content": "go to fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "cool bread 1 with fridge 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the countertop 1, you see a spatula 1."
+            },
+            {
+                "role": "assistant",
+                "content": "put bread 1 in/on countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You put the bread 1 in/on the countertop 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 11. The microwave 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, and a potato 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close microwave 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You close the microwave 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to garbagecan 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 23. On the garbagecan 1, you see a pot 2, a papertowelroll 1, a egg 1, and a knife 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 15. On the shelf 1, you see a statue 2, a lightswitch 1, and a bowl 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 16. On the shelf 2, you see a statue 2, a lightswitch 1, and a bowl 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to shelf 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 20. On the shelf 3, you see a statue 2, a bowl 2, and a lightswitch 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sink 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 13. On the sink 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a statue 1, a vase 1, a vase 2, a cup 1, a mug 1, a potato 3, a pot 2, a potato 2, a apple 1, a saltshaker 1, a spoon 1, and a cellphone 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 14. On the sinkbasin 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a statue 1, a vase 1, a vase 2, a cup 1, a mug 1, a potato 3, a pot 2, a potato 2, a apple 1, a saltshaker 1, a spoon 1, and a cellphone 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 6. The cabinet 2 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 2. The cabinet 2 is open. In it, you see a pot 1, a soapbottle 1, and a stoveknob 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 9. The cabinet 3 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 3. The cabinet 3 is open. In it, you see a soapbottle 2, and a bowl 3."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 10. The cabinet 4 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 4. The cabinet 4 is open. In it, you see nothing."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 4"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 5. On the countertop 2, you see a pot 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 3"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 12. On the countertop 3, you see a statue 1, a vase 1, a tomato 1, a vase 2, a pot 2, a glassbottle 1, a faucet 1, a apple 1, a peppershaker 1, a butterknife 1, a mug 1, a bowl 1, a cup 1, a cellphone 1, a potato 2, a statue 2, a saltshaker 1, a lightswitch 1, a knife 1, and a bowl 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 7. On the stoveburner 1, you see a pot 1, and a stoveknob 1.\nThe candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to countertop 2', 'go to cabinet 2', 'go to stoveburner 2', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'take pot 1 from stoveburner 1', 'take stoveknob 1 from stoveburner 1', 'inventory', 'examine stoveburner 1']"
+            },
+            {
+                "role": "assistant",
+                "content": "go to stoveburner 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 8. On the stoveburner 2, you see a pot 1.\n The candidate actions are ['go to fridge 1', 'go to cabinet 1', 'go to countertop 1', 'go to toaster 1', 'go to coffeemachine 1', 'go to countertop 2', 'go to cabinet 2', 'go to stoveburner 1', 'go to cabinet 3', 'go to cabinet 4', 'go to microwave 1', 'go to countertop 3', 'go to sink 1', 'go to sinkbasin 1', 'go to shelf 1', 'go to shelf 2', 'go to drawer 1', 'go to drawer 2', 'go to drawer 3', 'go to shelf 3', 'go to stoveburner 3', 'go to stoveburner 4', 'go to garbagecan 1', 'take pot 1 from stoveburner 2', 'inventory', 'examine stoveburner 2']"
+            }
+        ],
+        "history": [
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, and a potato 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close microwave 1",
+                "observation": "You close the microwave 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to garbagecan 1",
+                "observation": "You arrive at loc 23. On the garbagecan 1, you see a pot 2, a papertowelroll 1, a egg 1, and a knife 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "You arrive at loc 0. The fridge 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open fridge 1",
+                "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close fridge 1",
+                "observation": "You close the fridge 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a spatula 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 2",
+                "observation": "You arrive at loc 5. On the countertop 2, you see a pot 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 3",
+                "observation": "You arrive at loc 12. On the countertop 3, you see a statue 1, a vase 1, a tomato 1, a vase 2, a pot 2, a glassbottle 1, a faucet 1, a bread 1, a apple 1, a peppershaker 1, a butterknife 1, a mug 1, a bowl 1, a cup 1, a cellphone 1, a potato 2, a statue 2, a saltshaker 1, a lightswitch 1, a knife 1, and a bowl 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "take bread 1 from countertop 3",
+                "observation": "You pick up the bread 1 from the countertop 3.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to fridge 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "cool bread 1 with fridge 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 2. On the countertop 1, you see a spatula 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put bread 1 in/on countertop 1",
+                "observation": "You put the bread 1 in/on the countertop 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to microwave 1",
+                "observation": "You arrive at loc 11. The microwave 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open microwave 1",
+                "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a pot 1, and a potato 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close microwave 1",
+                "observation": "You close the microwave 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to garbagecan 1",
+                "observation": "You arrive at loc 23. On the garbagecan 1, you see a pot 2, a papertowelroll 1, a egg 1, and a knife 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 1",
+                "observation": "You arrive at loc 15. On the shelf 1, you see a statue 2, a lightswitch 1, and a bowl 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 2",
+                "observation": "You arrive at loc 16. On the shelf 2, you see a statue 2, a lightswitch 1, and a bowl 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to shelf 3",
+                "observation": "You arrive at loc 20. On the shelf 3, you see a statue 2, a bowl 2, and a lightswitch 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sink 1",
+                "observation": "You arrive at loc 13. On the sink 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a statue 1, a vase 1, a vase 2, a cup 1, a mug 1, a potato 3, a pot 2, a potato 2, a apple 1, a saltshaker 1, a spoon 1, and a cellphone 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 1",
+                "observation": "You arrive at loc 14. On the sinkbasin 1, you see a houseplant 1, a glassbottle 1, a faucet 1, a statue 1, a vase 1, a vase 2, a cup 1, a mug 1, a potato 3, a pot 2, a potato 2, a apple 1, a saltshaker 1, a spoon 1, and a cellphone 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 2",
+                "observation": "You arrive at loc 6. The cabinet 2 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 2",
+                "observation": "You open the cabinet 2. The cabinet 2 is open. In it, you see a pot 1, a soapbottle 1, and a stoveknob 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 2",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 3",
+                "observation": "You arrive at loc 9. The cabinet 3 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 3",
+                "observation": "You open the cabinet 3. The cabinet 3 is open. In it, you see a soapbottle 2, and a bowl 3.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 3",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 4",
+                "observation": "You arrive at loc 10. The cabinet 4 is closed. ",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 4",
+                "observation": "You open the cabinet 4. The cabinet 4 is open. In it, you see nothing.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 4",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 2",
+                "observation": "You arrive at loc 5. On the countertop 2, you see a pot 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 3",
+                "observation": "You arrive at loc 12. On the countertop 3, you see a statue 1, a vase 1, a tomato 1, a vase 2, a pot 2, a glassbottle 1, a faucet 1, a apple 1, a peppershaker 1, a butterknife 1, a mug 1, a bowl 1, a cup 1, a cellphone 1, a potato 2, a statue 2, a saltshaker 1, a lightswitch 1, a knife 1, and a bowl 2.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 1",
+                "observation": "You arrive at loc 7. On the stoveburner 1, you see a pot 1, and a stoveknob 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            },
+            {
+                "action": "go to stoveburner 2",
+                "observation": "You arrive at loc 8. On the stoveburner 2, you see a pot 1.",
+                "score": [
+                    0.3333333333333333
+                ],
+                "done": false
+            }
+        ],
+        "final_score": 0.3333333333333333,
+        "completed": false,
+        "exceeded_max_round": true
+    },
+    {
+        "task_id": "/mnt/tangyehui/code/LLaMA-Factory/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-SoapBar-None-GarbageCan-424/trial_T20190909_064309_357168",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Init environment: -= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a toilet 1, a cabinet 1, a sinkbasin 1, a cabinet 2, a countertop 1, a toiletpaperhanger 1, a handtowelholder 1, a towelholder 1, a cabinet 3, a cabinet 4, and a sinkbasin 2.\n\nYour task is to: put two soapbar in garbagecan"
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to garbagecan 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1."
+            },
+            {
+                "role": "assistant",
+                "content": "take soapbar 1 from cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You pick up the soapbar 1 from the cabinet 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to garbagecan 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "put soapbar 1 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1."
+            },
+            {
+                "role": "assistant",
+                "content": "take soapbar 2 from cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to garbagecan 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "put soapbar 2 in/on cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, and a soapbar 2."
+            },
+            {
+                "role": "assistant",
+                "content": "put soapbar 1 in/on toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You put the soapbar 1 in/on the toilet 1."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens."
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a soapbar 1, and a soapbar 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to sinkbasin 2"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to countertop 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2."
+            },
+            {
+                "role": "assistant",
+                "content": "go to cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 1. The cabinet 1 is closed."
+            },
+            {
+                "role": "assistant",
+                "content": "open cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1."
+            },
+            {
+                "role": "assistant",
+                "content": "close cabinet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: Nothing happens.\nThe candidate actions are ['go to toilet 1', 'go to sinkbasin 1', 'go to cabinet 2', 'go to countertop 1', 'go to toiletpaperhanger 1', 'go to handtowelholder 1', 'go to towelholder 1', 'go to cabinet 3', 'go to cabinet 4', 'go to sinkbasin 2', 'open cabinet 1', 'close cabinet 1', 'take towel 1 from cabinet 1', 'take faucet 1 from cabinet 1', 'take scrubbrush 1 from cabinet 1', 'take plunger 1 from cabinet 1', 'take soapbar 1 from cabinet 1', 'take soapbar 2 from cabinet 1', 'take soapbottle 2 from cabinet 1', 'take candle 3 from cabinet 1', 'take toiletpaper 1 from cabinet 1', 'inventory', 'examine cabinet 1']"
+            },
+            {
+                "role": "assistant",
+                "content": "go to toilet 1"
+            },
+            {
+                "role": "user",
+                "content": "Current observation: You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a soapbar 1, and a soapbar 2.\n The candidate actions are ['go to cabinet 1', 'go to sinkbasin 1', 'go to cabinet 2', 'go to countertop 1', 'go to toiletpaperhanger 1', 'go to handtowelholder 1', 'go to towelholder 1', 'go to cabinet 3', 'go to cabinet 4', 'go to sinkbasin 2', 'take towel 1 from toilet 1', 'take showerdoor 1 from toilet 1', 'take soapbar 1 from toilet 1', 'take soapbar 2 from toilet 1', 'inventory', 'examine toilet 1']"
+            }
+        ],
+        "history": [
+            {
+                "action": "go to sinkbasin 1",
+                "observation": "You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 2",
+                "observation": "You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to garbagecan 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take soapbar 1 from cabinet 1",
+                "observation": "You pick up the soapbar 1 from the cabinet 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to garbagecan 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put soapbar 1 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 1",
+                "observation": "You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 2",
+                "observation": "You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "take soapbar 2 from cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to garbagecan 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put soapbar 2 in/on cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 1",
+                "observation": "You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 2",
+                "observation": "You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "put soapbar 1 in/on toilet 1",
+                "observation": "You put the soapbar 1 in/on the toilet 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 1",
+                "observation": "You arrive at loc 2. On the sinkbasin 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 2",
+                "observation": "You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a soapbar 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to sinkbasin 2",
+                "observation": "You arrive at loc 10. On the sinkbasin 2, you see a faucet 2, a soapbottle 1, a faucet 1, a spraybottle 1, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to countertop 1",
+                "observation": "You arrive at loc 4. On the countertop 1, you see a soapbottle 1, a faucet 1, a spraybottle 1, a faucet 2, a candle 1, and a candle 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to cabinet 1",
+                "observation": "You arrive at loc 1. The cabinet 1 is closed. ",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "open cabinet 1",
+                "observation": "You open the cabinet 1. The cabinet 1 is open. In it, you see a towel 1, a faucet 1, a scrubbrush 1, a plunger 1, a soapbar 1, a soapbar 2, a soapbottle 2, a candle 3, and a toiletpaper 1.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "close cabinet 1",
+                "observation": "Nothing happens.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            },
+            {
+                "action": "go to toilet 1",
+                "observation": "You arrive at loc 0. On the toilet 1, you see a towel 1, a showerdoor 1, a soapbar 1, and a soapbar 2.",
+                "score": [
+                    0.0
+                ],
+                "done": false
+            }
+        ],
+        "final_score": 0.0,
+        "completed": false,
+        "exceeded_max_round": true
+    }
+]
