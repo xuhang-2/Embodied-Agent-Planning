@@ -1,2 +1,0 @@
-The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
-Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
