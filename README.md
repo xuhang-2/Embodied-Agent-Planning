@@ -1,8 +1,13 @@
-# Embodied Agent Planning Toolkit
+# MCTS-EP: Empowering Embodied Planning with Online Preference Optimization
 
 This repository contains two complementary components for embodied agent planning:
 1. `mcts-datagen`: Monte Carlo Tree Search data generation pipeline
 2. `LLaMA-Factory`: Model training and evaluation framework
+
+This is the official implementation of the paper:  
+**MCTS-EP: Empowering Embodied Planning with Online Preference Optimization**  
+*Hang Xu*, *Zang Yu*, Yehui Tang, Pengbo Hu, Yuhao Tang, Hao Dong  
+
 
 ## Project Structure
 
@@ -88,9 +93,8 @@ bash run_scripts/evaluation/qwen2vl_sft_eval.sh
 
 ## Configuration Notes
 
-Before running scripts in `LLaMA-Factory/run_scripts/`, update these variables:
+Before running scripts in `LLaMA-Factory/run_scripts/`, update these variables in train.sh and eval.sh:
 ```bash
-In train.sh and eval.sh:
 PROJECT_ROOT=/path/to/Embodied-Agent-Planning
 MCTS_DATAGEN=$PROJECT_ROOT/mcts-datagen
 LLAMA_FACTORY=$PROJECT_ROOT/LLaMA-Factory
