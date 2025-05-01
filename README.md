@@ -8,7 +8,6 @@ This is the official implementation of the paper:
 **MCTS-EP: Empowering Embodied Planning with Online Preference Optimization**  
 *Hang Xu*, *Zang Yu*, Yehui Tang, Pengbo Hu, Yuhao Tang, Hao Dong  
 
-
 ## Project Structure
 
 ```
@@ -79,14 +78,12 @@ pip install -r requirements.txt
 
 ### Training
 Using provided script (modify paths in script first)
-
 ```bash
 bash run_scripts/train/qwen2vl_sft_train.sh
 ```
 
 ### Evaluation
 Using provided script (modify paths in script first)
-
 ```bash
 bash run_scripts/evaluation/qwen2vl_sft_eval.sh
 ```
@@ -99,6 +96,21 @@ PROJECT_ROOT=/path/to/Embodied-Agent-Planning
 MCTS_DATAGEN=$PROJECT_ROOT/mcts-datagen
 LLAMA_FACTORY=$PROJECT_ROOT/LLaMA-Factory
 ```
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+We would like to acknowledge and thank the following open-source projects that have been instrumental in our work:
+
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - For providing the foundational training framework
+- [AlfWorld](https://github.com/alfworld/alfworld) - For the embodied environment and task definitions
+- [IPR](https://github.com/WeiminXiong/IPR) - For providing benchmark
+- [EMMA](https://github.com/stevenyangyj/Emma-Alfworld) - For providing benchmark
+
+We also thank all contributors and the open-source community for their valuable work that made this research possible.
 
 ## Contributing
 
