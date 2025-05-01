@@ -20,4 +20,4 @@ Xvfb :1 -screen 0 1024x768x16 &
 export DISPLAY=:1
 
 # 运行 Python 脚本
-python /mnt/tangyehui/code/mcts_datagen/src/main.py
+python ../Embodied-Agent-Planning/mcts_datagen/src/main.py

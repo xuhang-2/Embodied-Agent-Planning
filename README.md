@@ -73,14 +73,17 @@ pip install -r requirements.txt
 ```
 
 ### Training
-```bash
 Using provided script (modify paths in script first)
-bash run_scripts/train/llama3_dpo_train.sh
+
+```bash
+bash run_scripts/train/qwen2vl_sft_train.sh
 ```
 
 ### Evaluation
+Using provided script (modify paths in script first)
+
 ```bash
-bash run_scripts/evaluation/llama3_dpo_eval.sh
+bash run_scripts/evaluation/qwen2vl_sft_eval.sh
 ```
 
 ## Configuration Notes

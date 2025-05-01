@@ -173,7 +173,7 @@ class LlaMaChatModel:
 class GPT4Engine:
     def __init__(self):
         super().__init__()
-        openai.api_key = "sk-aq1WIjHCe6JRibSVGboepeebCdvQTRFIu7WZDfENga3iuEzo"
+        openai.api_key = "sk-xxx" # change if you need
         openai.base_url = "https://api.chatanywhere.tech"
         self.model = "gpt-4-turbo-preview"
 
